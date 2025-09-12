@@ -1,4 +1,4 @@
-package com.example.kmp_daily_pulse
+package com.example.kmp_daily_pulse.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.example.kmp_daily_pulse.Platform
 
 
 @Composable
@@ -25,7 +26,7 @@ fun AboutScreen() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun Toolbar() {
+fun Toolbar() {
     TopAppBar(
         title = { Text("About Device") }
     )
