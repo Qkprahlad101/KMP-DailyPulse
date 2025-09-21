@@ -13,22 +13,22 @@ class ArticlesViewModel: BaseViewModel() {
 
     private val mockArticles = listOf(
         Article(
-            "Title1",
-            "Desc1",
-            "1-1-10",
-            "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXJsfGVufDB8fDB8fHww"
+            "Stock market today: Live updates - CNBC",
+            "Futures were higher in premarket trading as Wall Street tried to regain its footing.",
+            "2023-11-09",
+            "https://image.cnbcfm.com/api/v1/image/107326078-1698758530118-gettyimages-1765623456-wall26362_igj6ehhp.jpeg?v=1698758587&w=1920&h=1080"
         ),
         Article(
-            "Title1",
-            "Desc1",
-            "2-1-10",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_BDtCMphYPuPZgBgJjD4zdEKiV46dLJCyg&s"
+            "Best iPhone Deals (2023): Carrier Deals, Unlocked iPhones",
+            "Apple's smartphones rarely go on sale, but if you’re looking to upgrade (or you're gift shopping), here are a few cost-saving options.",
+            "2023-11-09",
+            "https://media.wired.com/photos/622aa5c8cca6acf55fb70b57/191:100/w_1280,c_limit/iPhone-13-Pro-Colors-SOURCE-Apple-Gear.jpg",
         ),
         Article(
-            "Title1",
-            "Desc1",
-            "3-1-10",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBcm_jpu_AoJ5QjNIsGe-P8dwIHpZ8EmS5zA&s"
+            "Samsung details ‘Galaxy AI’ and a feature that can translate phone calls in real time",
+            "In a new blog post, Samsung previewed what it calls “a new era of Galaxy AI” coming to its smartphones and detailed a feature that will use artificial intelligence to translate phone calls in real time.",
+            "2023-11-09",
+            "https://cdn.vox-cdn.com/thumbor/Ocz_QcxUdtaexp1pPTMygaqzbR8=/0x0:2000x1333/1200x628/filters:focal(1000x667:1001x668)/cdn.vox-cdn.com/uploads/chorus_asset/file/24396795/DSC04128_processed.jpg",
         ),
     )
 
