@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         val articlesViewModel : ArticlesViewModel by viewModels()
         Platform().logSystemInfo()
         setContent {
-            ArticlesScreen(articlesViewModel)
+            AppScaffold(articlesViewModel)
         }
     }
 }
@@ -28,5 +28,5 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun AppAndroidPreview() {
 //    App()
-    AboutScreen()
+//    AppScaffold()
 }

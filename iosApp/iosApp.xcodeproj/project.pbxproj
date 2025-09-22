@@ -11,26 +11,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		ECC470B97E522BE9F3F66833 /* Exceptions for "iosApp" folder in "iosApp" target */ = {
+		930169212E7CB17600E5E4A8 /* Exceptions for "Configuration" folder in "iosApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				iosApp/Assets.xcassets,
+				iosApp/ContentView.swift,
+				iosApp/iOSApp.swift,
+				"iosApp/Preview Content/Preview Assets.xcassets",
+				iosApp/Screens/AboutListView.swift,
+				iosApp/Screens/AboutScreen.swift,
+				iosApp/Screens/ArticlesScreen.swift,
 			);
 			target = F7E24C010AA9B1435AF89C95 /* iosApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D7169A7A1E44DC4F432F8F3B /* iosApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				ECC470B97E522BE9F3F66833 /* Exceptions for "iosApp" folder in "iosApp" target */,
-			);
-			path = iosApp;
-			sourceTree = "<group>";
-		};
 		E7609B96DC555343EF503342 /* Configuration */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				930169212E7CB17600E5E4A8 /* Exceptions for "Configuration" folder in "iosApp" target */,
+			);
 			path = Configuration;
 			sourceTree = "<group>";
 		};
@@ -59,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				E7609B96DC555343EF503342 /* Configuration */,
-				D7169A7A1E44DC4F432F8F3B /* iosApp */,
 				09E2066091F0D6D94E536170 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,9 +79,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D7169A7A1E44DC4F432F8F3B /* iosApp */,
 			);
 			name = iosApp;
 			packageProductDependencies = (
@@ -175,11 +172,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "${TEAM_ID}";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_FILE = iosApp/Configuration/iosApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Daily Pulse";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,11 +323,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "${TEAM_ID}";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_FILE = iosApp/Configuration/iosApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Daily Pulse";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
